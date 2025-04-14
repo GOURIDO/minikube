@@ -1,4 +1,4 @@
-Minikube NGINX Deployment on Kubernetes
+##Minikube NGINX Deployment on Kubernetes
 This project demonstrates how to deploy a simple NGINX application on a local Kubernetes cluster using Minikube. The setup includes creating and applying deployment and service YAML files, scaling the deployment, and verifying the setup using kubectl commands.
 Project Structure
 minikube/
@@ -36,7 +36,7 @@ Check that the number of pods has increased:
 kubectl get pods
 You should now see three NGINX pods
 
-Screenshots
+*Screenshots
 1.The screenshots/ folder includes six screenshots that demonstrate each step of the process:
 
 2.Applying the deployment and service
@@ -51,14 +51,14 @@ Screenshots
 
 7.Verifying that three pods are running
 
-Additional Notes
+*Additional Notes
 Make sure you're in the correct directory when running kubectl apply.
 
 If an error occurs while scaling, confirm the deployment name using kubectl get deployments.
 
 Only deployment objects can be scaled—not individual pods
 
-Tech Stack
+*Tech Stack
 Minikube – For running a local Kubernetes cluster
 
 Kubernetes – Container orchestration platform used to deploy and manage applications
