@@ -1,4 +1,4 @@
-##Minikube NGINX Deployment on Kubernetes
+Minikube NGINX Deployment on Kubernetes-
 This project demonstrates how to deploy a simple NGINX application on a local Kubernetes cluster using Minikube. The setup includes creating and applying deployment and service YAML files, scaling the deployment, and verifying the setup using kubectl commands.
 Project Structure
 minikube/
